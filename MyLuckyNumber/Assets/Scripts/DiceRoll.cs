@@ -41,7 +41,6 @@ public class DiceRoll : MonoBehaviour
             timer = 0; // Ensure the timer doesn't go below 0
             isGameOver = true;
             Debug.Log("Time's up! Your final score is: " + score);
-            // You can add code here to end the game or reset the score
         }
     }
 
